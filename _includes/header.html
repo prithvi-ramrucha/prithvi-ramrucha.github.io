@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    {%- if site.nav -%}
+      <nav class="site-nav">
+        <div class="nav-links">
+          {%- for item in site.nav -%}
+            <a class="page-link" href="{{ item.link | relative_url }}">{{ item.name | escape }}</a>
+          {%- endfor -%}
+        </div>
+      </nav>
+    {%- endif -%}
+  </div>
+</header>
