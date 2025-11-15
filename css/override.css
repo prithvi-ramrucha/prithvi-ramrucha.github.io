@@ -3,6 +3,32 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Simple Navigation Bar */
+.site-nav {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.nav-link:hover {
+  color: #0077cc;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
