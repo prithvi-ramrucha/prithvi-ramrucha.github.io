@@ -16,12 +16,12 @@ linkedin_username: "prithvi-ramrucha"
 #googleplus_username: +username
 
 nav:
-  - name: "Home"
+  - name: "CV"
     link: "/"
-  - name: "About"
-    link: "/about/"
   - name: "Projects"
     link: "/projects/"
+  - name: "Notes"
+    link: "/Notes/"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
